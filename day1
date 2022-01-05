@@ -9,7 +9,11 @@ print (name)
 name = "Angela"
 print (name)
 
-
+#check length string
+print ( len (input("What is your name? ") ) ) #or
+name = input("What is your name? ")
+length = len(name)
+print (length)
 
 # excercise variable
 name = input("what is your name? ")
@@ -27,9 +31,6 @@ b = input("b: ")
 c = a 
 a = b
 b = c
-
-
-
 
 #Write your code above this line 👆
 ####################################
