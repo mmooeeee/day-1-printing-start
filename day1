@@ -1,2 +1,14 @@
-input("What is your name?") #input function
+#input function
+input("What is your name?") 
 print("Helloo" + input ("what is your name? "))
+
+#Variable
+name = "Jack"
+print (name)
+
+name = "Angela"
+print (name)
+
+name = input("what is your name? ")
+length = len(name)
+print = (length)        
