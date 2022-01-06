@@ -24,3 +24,72 @@ first_digit = two_digit_number[0]
 second_digit = two_digit_number[1]
 result = int(first_digit) + int(second_digit)
 print(result)
+
+#PEMDASLR
+#()
+# **
+# * /
+# + -
+
+#Exrecise
+# 🚨 Don't change the code below 👇
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+bmi = int(weight) / float(height) ** 2
+bmi_as_int = int(bmi)
+
+print (bmi_as_int)
+
+#add string to differnet type data 
+score = 0
+height = 1.8
+isWinngin = True
+
+#f untuk menggabungkan semua tipe data kedalam bentuk string
+print (f"your score is {score}, your height is {height}, you are winning is {isWinning})
+
+age_is_int = int(age)
+
+------------------
+# 🚨 Don't change the code below 👇
+age = input("What is your current age?")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+age_is_int = int(age)
+
+years_remaining = 90 - age_is_int
+days_remaining = years_remaining *365
+weeks_remaining = years_remaining * 52
+months_remaining = years_remaining * 12
+
+message = f"You have {days_remaining} days, {weeks_remaining} weeks, and {months_remaining} months left."
+print (message)
+
+----------
+#If the bill was $150.00, split between 5 people, with 12% tip. 
+
+#Each person should pay (150.00 / 5) * 1.12 = 33.6
+#Format the result to 2 decimal places = 33.60
+
+#Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
+
+#Write your code below this line 👇
+
+print ("welcome to the tip calculator")
+bill = int(input ("what was the total bill? $"))
+tip = int(input("how much tip you can give? "))
+poeple = int(input("how many poeple to split bill?"))
+bill_with_tip = tip / 100 * bill + bill
+print (bill_with_tip)
+tip_as_percent = tip / 100
+total_tip_amount = bill * tip_as_percent 
+total_bill = bill + total_tip_amount
+bill_per_person = total_bill / poeple
+final_amount = round(bill_per_person, 2)
+print (f"each person should pay ${final_amount}")
+
